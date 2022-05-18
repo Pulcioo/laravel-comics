@@ -1,0 +1,27 @@
+.header-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container img {
+  width: 50px;
+}
+
+.header-container ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-container ul li {
+  margin: 0 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

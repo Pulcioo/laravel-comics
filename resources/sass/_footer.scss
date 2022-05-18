@@ -1,0 +1,43 @@
+footer {
+    background-color: #393838;
+
+    .container-footer {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+
+        .footer-left .btn {
+            padding: 10px;
+            margin-bottom: 5px;
+            background: none;
+            color: white;
+            border: none;
+            outline: 2px solid #008dff;
+        }
+
+        .footer-right {
+            display: flex;
+            align-items: center;
+
+            .text-follow {
+                color: #008dff;
+                margin-right: 5px;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+
+                li {
+                    margin: 0 5px;
+
+                    img {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 150px;
+        margin: 15px;
+
+        img {
+            width: 150px;
+            height: 200px;
+        }
+
+        h2 {
+            font-size: 12px;
+            padding-top: 10px;
+            text-transform: uppercase;
+        }
+    }
+}

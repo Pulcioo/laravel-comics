@@ -1,10 +1,22 @@
 //
 
 @import '_header';
+@import '_comics';
 @import '_footer';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    min-height: 558px;
+    background-color: black;
 }

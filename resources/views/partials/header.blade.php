@@ -3,7 +3,7 @@
        <img src="{{ asset('images/dc-logo.png') }}" alt="logo">
        <ul>
             <li>CHARACTERS</li>
-            <li>COMICS</li>
+            <li><a href="/comics"> COMICS</a></li>
             <li>MOVIES</li>
             <li>TV</li>
             <li>GAMES</li>

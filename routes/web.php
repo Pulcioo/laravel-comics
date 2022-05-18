@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('base-layout');
 });
+
+Route::get('/comics', function () {
+    $data = config('comics');
+    // var_dump($data);
+    return view('comics', ['cards' => $data]);
+});

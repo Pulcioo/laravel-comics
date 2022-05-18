@@ -8,19 +8,19 @@
             <h3 class="text-follow">FOLLOW US</h3>
             <ul>
                 <li>
-                    <img src="{{ asset('images/footer-facebook.png') }}" alt="">
+                    <img src="{{ asset('images/footer-facebook.png') }}" alt="facebook">
                 </li>
                 <li>
-                    <img src="{{ asset('images/footer-twitter.png') }}" alt="">
+                    <img src="{{ asset('images/footer-twitter.png') }}" alt="twitter">
                 </li>
                 <li>
-                    <img src="{{ asset('images/footer-youtube.png') }}" alt="">
+                    <img src="{{ asset('images/footer-youtube.png') }}" alt="youtube">
                 </li>
                 <li>
-                    <img src="{{ asset('images/footer-pinterest.png') }}" alt="">
+                    <img src="{{ asset('images/footer-pinterest.png') }}" alt="pinterest">
                 </li>
                 <li>
-                    <img src="{{ asset('images/footer-periscope.png') }}" alt="">
+                    <img src="{{ asset('images/footer-periscope.png') }}" alt="periscope">
                 </li>
             </ul>
         </div>

@@ -20,6 +20,41 @@
   margin: 0 10px;
 }
 
+.header-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.card-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container .card {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  margin: 15px;
+}
+
+.card-container .card img {
+  width: 150px;
+  height: 200px;
+}
+
+.card-container .card h2 {
+  font-size: 12px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
 footer {
   background-color: #393838;
 }
@@ -68,5 +103,16 @@ footer .container-footer .footer-right ul li img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  min-height: 558px;
+  background-color: black;
 }
 

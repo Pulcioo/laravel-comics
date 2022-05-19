@@ -1,0 +1,42 @@
+.jumbotron img {
+    position: absolute;
+    bottom: -20px;
+    left: 150px;
+}
+
+.container {
+    background-color: white;
+    padding-top: 80px;
+
+    .detail-container-top {
+        width: 80%;
+        margin: 0 auto;
+
+        .detail-top {
+            display: flex;
+            column-gap: 40px;
+
+            .price {
+                display: flex;
+                justify-content: space-around;
+                background-color: green;
+                padding: 5px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+                p {
+                    color: rgb(233, 226, 226);
+
+                    span {
+                        color: white;
+                    }
+                }
+            }
+
+            .description {
+                font-size: small;
+                line-height: 1.5;
+            }
+        }
+    }
+}

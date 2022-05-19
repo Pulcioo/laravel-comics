@@ -22,3 +22,9 @@ Route::get('/comics', function () {
     // var_dump($data);
     return view('comics', ['cards' => $data]);
 });
+
+Route::get('/detail', function () {
+    $data = config('comics');
+    // var_dump($data);
+    return view('detail', ['info' => $data[0]]);
+});

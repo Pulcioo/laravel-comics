@@ -11,6 +11,7 @@
     .detail-container-top {
         width: 80%;
         margin: 0 auto;
+        padding-bottom: 60px;
 
         .detail-top {
             display: flex;
@@ -39,4 +40,49 @@
             }
         }
     }
+}
+
+.container-2 {
+    background-color: rgb(233, 226, 226);
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+    .detail-container-bottom {
+        width: 80%;
+        margin: 0 auto;
+
+        .detail-bottom {
+            display: flex;
+            column-gap: 50px;
+
+            .info {
+                width: 50%;
+                padding: 10px;
+
+                h3 {
+                    margin-bottom: 20px;
+                }
+
+                div {
+                    font-size: small;
+                    display: flex;
+                    padding: 10px 0;
+                    color: gray;
+
+                    span {
+                        width: 30%;
+                    }
+
+                    p {
+                        width: 70%;
+                        color: #008dff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gray {
+    color: gray !important;
 }

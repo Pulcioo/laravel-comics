@@ -114,6 +114,7 @@
 .container .detail-container-top {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .container .detail-container-top .detail-top {
@@ -142,6 +143,52 @@
 .container .detail-container-top .detail-top .description {
   font-size: small;
   line-height: 1.5;
+}
+
+.container-2 {
+  background-color: rgb(233, 226, 226);
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.container-2 .detail-container-bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-2 .detail-container-bottom .detail-bottom {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+.container-2 .detail-container-bottom .detail-bottom .info {
+  width: 50%;
+  padding: 10px;
+}
+
+.container-2 .detail-container-bottom .detail-bottom .info h3 {
+  margin-bottom: 20px;
+}
+
+.container-2 .detail-container-bottom .detail-bottom .info div {
+  font-size: small;
+  display: flex;
+  padding: 10px 0;
+  color: gray;
+}
+
+.container-2 .detail-container-bottom .detail-bottom .info div span {
+  width: 30%;
+}
+
+.container-2 .detail-container-bottom .detail-bottom .info div p {
+  width: 70%;
+  color: #008dff;
+}
+
+.gray {
+  color: gray !important;
 }
 
 footer {
